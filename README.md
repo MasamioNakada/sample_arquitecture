@@ -1,7 +1,7 @@
 # Proceso Data Engineer – 1° Masami Nakada – Etapa 2 Resuelta
 
 Para mayor detalle del desarrollo del caso 1 y caso 2 verificar el repositorio en Github :   
-https://github.com/MasamioNakada/data\_arquitectura\_sample
+https://github.com/MasamioNakada/sample_arquitecture
 
 ## Caso 1
 
