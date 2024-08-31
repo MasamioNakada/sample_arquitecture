@@ -3,6 +3,20 @@
 Para mayor detalle del desarrollo del caso 1 y caso 2 verificar el repositorio en Github :   
 https://github.com/MasamioNakada/sample_arquitecture
 
+Clona el repositorio;
+```bash
+git clone https://github.com/MasamioNakada/sample_arquitecture
+```
+Levante las imágenes para su prueba
+```
+docker-compose up -d
+```
+
+Acceder a los Servicios:
+
+Draw.io: Abre tu navegador web y ve a http://localhost:8080 
+Jupyter Notebook: Abre tu navegador web y ve a http://localhost:8888. Se te pedirá un token que puedes encontrar en los logs del contenedor de Jupyter.
+
 ## Caso 1
 
 ### **Arquitectura General**
