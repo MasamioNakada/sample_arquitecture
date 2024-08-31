@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  drawio:
+    image: jgraph/drawio
+    container_name: draw
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    volumes:
+      - ./case1.drawio:/data/case1.drawio
+
+  jupyter:
+    image: jupyter/base-notebook
+    container_name: jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./case2.ipynb:/home/jovyan/work/case2.ipynb
+      - ./requirements.txt:/home/jovyan/requirements.txt
+    command: bash -c "pip install -r /home/jovyan/requirements.txt && start-notebook.sh"
